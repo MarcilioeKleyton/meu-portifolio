@@ -1,0 +1,26 @@
+<html>
+<head>
+    <body>
+        
+        <input type="text" id-"user">
+        <button>onclik-"carregarPerfilGithunb()>consultar</button>
+        <div> id-"resultado"></div>
+
+        <script>
+
+            async function carregarPerfilGithunb() {
+
+                 try{
+                    const usuario = document.getElementById("user").vlue;
+                    const valor = await resposta.json();
+                    document.getElementById("resultado").innerHTML =
+                    <p>${valor.login}</p>
+                    <a href-"${valor.html_url}" target ="blank" >Github</a>
+                    Img src="${valor}" >
+                 }catch(error){
+                    alert("Deu um error")
+                 }
+                 }
+        </script>
+    </body>
+</head>
